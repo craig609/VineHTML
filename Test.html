@@ -44,6 +44,9 @@
                 "months_paid": parseInt(monthsPaid)
             };
 
+	   // Log the requestData
+    		console.log('Request Data:', requestData);
+
             // Make API request
             fetch('https://long-centaur-412611.nw.r.appspot.com/calculate', {
                 method: 'POST',
